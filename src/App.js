@@ -15,6 +15,7 @@ const App = (props) => {
   React.useEffect(() => {
     getEvents();
   }, []);
+  
 
   // Get the events from the API
   const getEvents = async () => {
